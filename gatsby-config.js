@@ -1,7 +1,14 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "sjs1",
+    title: "SJS1 Live",
+    description: "South Jersey Sports 1 Media Platform",
+    url: "https://www.sjs1.live",
+    siteUrl: "https://www.sjs1.live",
+    twitterUsername: "@sjs1live",
+    author: "Mark Roxberry",
+    keywords: ["sports", "platform", "development"],
+    version: "2021.12.04.01",
   },
   plugins: [
     // {
@@ -18,6 +25,7 @@ module.exports = {
     // },
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-typescript",
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
